@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css_botstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--js_botstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- tittle -->
+    <title>allo ecell</title>
+</head>
+<!-- styling -->
+<style>
+    .palette {
+        color: #E9E8E6 #323232 #BEA4F0 #A5EFB9;
+    }
+
+    h1 {
+        color: #E9E8E6;
+        padding-bottom: 20px;
+    }
+
+    button {
+        border: 1px solid #E9E8E6;
+        background-color: #E9E8E6;
+        padding: 5px 20px;
+        color: #323232;
+    }
+
+    .containerScroll {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100dvh;
+    }
+
+    section {
+        scroll-snap-align: start;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #323232;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+
+
+
+
+    section {
+            display: block;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        img {
+            width: 200px; /* Ubah lebar gambar sesuai kebutuhan */
+            height: auto; /* Biarkan tinggi otomatis agar proporsional */
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Menyesuaikan tata letak kolom dengan display: block */
+        .col-6 {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+        }
+
+        /* Membersihkan float dan mengatur margin untuk mencegah pengaruhnya pada elemen berikutnya */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Kontainer tombol */
+        .btncontainer {
+            display: flex;
+            justify-content: center;
+        }
+</style>
+<!-- content -->
+
+<body>
+    <div class="containerScroll">
+        <!-- start -->
+        <section id="start">
+            <img src="img/pipiberuang.gif" alt="">
+            <h1>ALLOOO ECELLLL</h1>
+            <button id="start">PENCET INIII</button>
+        </section>
+        <!-- step1 -->
+        <section id="step1">
+            <div class="container">
+                <img src="img/beruangbunga.gif" alt="Animasi GIF">
+                <h1>MAU GAKK JADI PACAR KUU</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="btncontainer">
+                                <button id="y1">mauu</button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btncontainer">
+                                <button id="n1">gk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- step2 -->
+        <section id="step2" class="container">
+            <img src="img/beruangsedih.gif" alt="">
+            <h1>AYOO MAU DONGG</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="y2">mauu</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="btncontainer">
+                            <button id="n2" style="position: relative; top: 100px;">gk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- step3 -->
+        <section id="step3" class="container">
+            <img src="img/beruangsembunyi.gif" alt="">
+            <h1>AYOLAHH</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="y3">mauu</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="btncontainer">
+                            <button id="n3" style="position: relative; right: 100px; top: 150px;">gk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- step4 -->
+        <section id="step4" class="container">
+            <img src="img/beruangsedih.gif" alt="">
+            <h1>MAUU DONGG CELL</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="y4">mauu</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="btncontainer">
+                            <button id="n4" style="position: relative; bottom: 100px; right: 220px;">gk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- step5 -->
+        <section id="step5" class="container">
+            <img src="img/beruangsembunyi.gif" alt="">
+            <h1>YAUDAH DEHH GAK MAKSAA</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="y5">mauu</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="btncontainer">
+                            <button id="n5" style="position: relative; top: 100px; right: 100px;">gk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- step6 -->
+        <section id="step6" class="container">
+            <img src="img/beruangketapel.gif" alt="">
+            <h1>YANG BENERRRRR ??</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="y6">IYAAA</button>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="btncontainer">
+                            <button id="n6">gk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- step7 -->
+        <section id="step7" class="container">
+            <img src="img/beruangsenang.gif" alt="">
+            <h1>🙀HAHHHH!!!!🙀</h1>
+            <h1>BENERANNN ???</h1>
+        </section>
+    </div>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+
+        // Function to hide all sections except the specified one
+        function hideAllExcept(sectionId) {
+            sections.forEach(section => {
+                if (section.id === sectionId) {
+                    section.style.display = "block";
+                } else {
+                    section.style.display = "none";
+                }
+            });
+        }
+
+        // Initially, hide all sections except the start section
+        hideAllExcept("start");
+
+        // Event listeners for each button
+        document.getElementById("start").addEventListener("click", function () {
+            hideAllExcept("step1");
+        });
+
+        document.getElementById("y1").addEventListener("click", function () {
+            hideAllExcept("step6");
+        });
+
+        document.getElementById("n1").addEventListener("click", function () {
+            hideAllExcept("step2");
+        });
+
+        document.getElementById("y2").addEventListener("click", function () {
+            hideAllExcept("step6");
+        });
+
+        document.getElementById("n2").addEventListener("click", function () {
+            hideAllExcept("step3");
+        });
+
+        document.getElementById("y3").addEventListener("click", function () {
+            hideAllExcept("step6");
+        });
+
+        document.getElementById("n3").addEventListener("click", function () {
+            hideAllExcept("step4");
+        });
+
+        document.getElementById("y4").addEventListener("click", function () {
+            hideAllExcept("step6");
+        });
+
+        document.getElementById("n4").addEventListener("click", function () {
+            hideAllExcept("step5");
+        });
+
+        document.getElementById("y5").addEventListener("click", function () {
+            hideAllExcept("step6");
+        });
+
+        document.getElementById("n5").addEventListener("click", function () {
+            hideAllExcept("step2");
+        });
+
+        document.getElementById("y6").addEventListener("click", function () {
+            hideAllExcept("step7");
+        });
+
+        document.getElementById("n6").addEventListener("click", function () {
+            hideAllExcept("step2");
+        });
+    });
+
+</script>
+
+</html>
